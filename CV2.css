@@ -1,0 +1,226 @@
+@import url('reset.css');
+
+body{
+	background-color: black;
+}
+
+.top{
+	/*background-color: #84BFD4;*/
+	background-color: #7183cc;
+	height: 100px;
+}
+
+.score{
+	width: 300px;
+	margin-top: 10px;
+}
+
+/*.top ul{
+	padding-top: 13px;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.top a{
+	text-decoration: none;
+	text-align: center;
+	color: #595757;
+	font-size: 26px;
+	margin: 19px;
+	font-weight: bold;
+}
+
+.top a:hover{
+	color: white;
+}
+
+.top li{
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	border: 3px solid #C9CACA;
+	border-radius: 50px;
+	box-shadow: 2px 1px 1px 2px rgba(0, 0, 0, .3);
+	padding: 2px 15px;
+}
+
+.top li:hover{
+	background-color: #C9CACA;
+	box-shadow: inset 1px 1px 0 2px rgba(0, 0, 0, .3);
+}
+*/
+
+/*--------------------------------- introduction -------------------------------------*/
+
+.introduction{
+	background-image: url(pic/sky.png);
+	height: 550px;
+	position: relative;
+	overflow: hidden;
+}
+
+.introduction .tree{
+	width: 300px;
+
+	position: absolute;
+	bottom: 90px;
+	left: 5%x;
+}
+
+.introduction .up{
+	width: 100px;
+
+	position: absolute;
+	top: 50%;
+	left: 51%;
+}
+
+.bubbleOut{
+	cursor: pointer;
+}
+
+.bubble{
+	width: 250px;
+	
+	position: absolute;
+	top: 150px;
+	left: 28%;
+}
+
+.introduction .cat{
+	height: 77px;
+	width: 100px;
+	overflow: hidden;
+
+	position: relative;
+	top: 375px;
+	left: 40%;
+}
+
+.cat{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.flower{
+	width: 100px;
+
+	position: relative;
+	top: 200px;
+	left: 55%;
+}
+
+.flower img{
+	width: 200px;
+}
+
+.coin{
+	width: 125px;
+	height: 160px;
+
+	left: 80%;
+	top: -100px;
+
+	position: relative;
+}
+
+.smallGrass{
+	left: 81%;
+	top: -160px;
+
+	position: relative;
+}
+
+.smallGrass img{
+	width: 100px;
+}
+
+.me{
+	width: 125px;
+	height: 160px;
+	overflow: hidden;
+
+	bottom: 205px;
+	left: 30%;
+
+	position: relative;
+}
+
+.me img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	animation: hair 1s steps(4, end) infinite;
+}
+
+@keyframes hair{
+	0%{
+		left: 0;
+	}
+
+	100%{
+		left: -500px;
+	}
+}
+
+.grass{
+	background-image: url(pic/GRASS.png); 
+	height: 100px;
+	width: 100%;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.UI h1{
+	color: white;
+	display: flex;
+
+	left: 80%;
+	top: -20px;
+
+	position: relative;
+}
+
+/*--------------------------------- MAIN -------------------------------------*/
+
+.main{
+	height: 500px;
+	background-color: black;
+	color: white;
+
+	display:none; 
+}
+
+.main img{
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 150px;
+}
+
+.main h1{
+	
+}
+
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
